@@ -1,0 +1,10 @@
+@import "addons.scss";
+@import "memberregistertheme.scss";
+
+.memberregistertheme {
+  @include addons;
+  @include memberregistertheme;
+  .v-caption-multiline {
+    white-space: pre;
+}
+}
